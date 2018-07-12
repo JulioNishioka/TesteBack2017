@@ -9,7 +9,7 @@ CREATE TABLE tb_customer_account(
     PRIMARY KEY (id_customer)
     );
 
-INSERT INTO tb_customer_account(cpf_cnpj, nm_customer, is_active, vl_total,)
+INSERT INTO tb_customer_account(cpf_cnpj, nm_customer, is_active, vl_total)
     VALUES
 	(83930356874, 'moshe fletcher', 1, -4248.45),
 	(26936519122, 'yandel emerson', 0, -5475.64),
