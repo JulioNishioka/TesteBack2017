@@ -17,7 +17,7 @@ public class ConnectionFactory {
         private final String DRIVER = "com.mysql.jdbc.Driver";
         private final String URL = "jdbc:mysql://localhost:3306/valemobi?useTimezone=true&serverTimezone=UTC";
         private final String USER = "root";
-        private final String PASS = "$l4y3r_7$";
+        private final String PASS = " ";
             
     public Connection getConnection(){
         try {

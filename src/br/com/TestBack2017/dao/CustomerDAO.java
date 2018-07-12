@@ -66,13 +66,11 @@ public class CustomerDAO {
                 String nm_customer = rs.getString("nm_customer");
                 String is_active = rs.getString("is_active");
                 String vl_total = rs.getString("vl_total");
-                if(vl_total) {
-                    System.out.println("ID: " + id_customer
+                System.out.println("ID: " + id_customer
                         + "     CPF/CNPJ: " + cpf_cnpj 
                         + "     NOME: " + nm_customer 
                         + "     STATUS: " + is_active 
                         + "     SALDO: " + vl_total);
-                }
             }
         } catch (SQLException ex) {
             Logger.getLogger(CustomerDAO.class.getName()).log(Level.SEVERE, null, ex);
