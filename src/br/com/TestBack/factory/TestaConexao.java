@@ -1,4 +1,4 @@
-package br.com.TestBack2017.factory;
+package br.com.TestBack.factory;
 
 import java.sql.Connection;
 import java.sql.SQLException;

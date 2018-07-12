@@ -1,4 +1,4 @@
-package br.com.TestBack2017.modelo;
+package br.com.TestBack.modelo;
 
 import java.math.BigDecimal;
 
